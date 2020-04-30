@@ -1,2 +1,2 @@
-# Thesis for Masters of Arts in Computational Social Science
+# M.A. in Computational Social Science: Thesis
 Aging in Japan
