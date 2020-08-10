@@ -1,0 +1,64 @@
+>>06/06/20 15:23:51
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  gadm36_JPN_1
+Dependent Variable  :  ratio of population [65 years old and over] 2015
+Number of Observations:   47
+Mean dependent var  :     28.2851  Number of Variables   :   12
+S.D. dependent var  :     2.73752  Degrees of Freedom    :   35 
+
+R-squared           :    0.827354  F-statistic           :     15.2479
+Adjusted R-squared  :    0.773094  Prob(F-statistic)     :2.87335e-010
+Sum squared residual:     60.8094  Log likelihood        :    -72.7436
+Sigma-square        :     1.73741  Akaike info criterion :     169.487
+S.E. of regression  :     1.31811  Schwarz criterion     :     191.689
+Sigma-square ML     :     1.29382
+S.E of regression ML:     1.13746
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT       27.2153        5.29978        5.13517     0.00001
+rate of..tion 2015       -24.581        38.0491      -0.646034     0.52247
+rate of..ures 2015       21.6161        38.1039       0.567294     0.57414
+rate of..ures 2015      -22.3328        37.9917      -0.587834     0.56042
+beds in..ons) 2015    0.00330773     0.00101079        3.27241     0.00240
+ratio o..area 2015    -0.0158442      0.0199574      -0.793899     0.43260
+prefect..rson 2015  -0.000652285    0.000648105       -1.00645     0.32111
+educati..ity] 2015    -0.0125818      0.0116815       -1.07707     0.28882
+gross a..lds) 2015   -0.00282229     0.00124598       -2.26511     0.02980
+yearly ..ture 2015     -0.245397       0.156464        -1.5684     0.12579
+death r..ons) 2015      0.427729       0.154262        2.77274     0.00885
+total f..rate 2015      -5.26273         2.5075       -2.09879     0.04312
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   1578.597315
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2             0.0577          0.97157
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test    11            19.8343          0.04767
+Koenker-Bassett test  11            21.6961          0.02684
+SPECIFICATION ROBUST TEST
+TEST                  DF           VALUE             PROB
+White                 77            47.0000          0.99724
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE   
+FOR WEIGHT MATRIX : SRA_DB_JPN_knn7
+   (row-standardized weights)
+TEST                          MI/DF        VALUE          PROB
+Moran's I (error)            -0.0017        1.3169        0.18788
+Lagrange Multiplier (lag)       1           0.0000        0.99844
+Robust LM (lag)                 1           0.0002        0.98804
+Lagrange Multiplier (error)     1           0.0005        0.98233
+Robust LM (error)               1           0.0007        0.97873
+Lagrange Multiplier (SARMA)     2           0.0007        0.99964
+============================== END OF REPORT ================================
+
+
+

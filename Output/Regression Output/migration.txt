@@ -1,0 +1,55 @@
+>>06/06/20 15:21:14
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  gadm36_JPN_1
+Dependent Variable  :  ratio of population [65 years old and over] 2015
+Number of Observations:   47
+Mean dependent var  :     28.2851  Number of Variables   :    3
+S.D. dependent var  :     2.73752  Degrees of Freedom    :   44 
+
+R-squared           :    0.543364  F-statistic           :     26.1784
+Adjusted R-squared  :    0.522608  Prob(F-statistic)     :3.23999e-008
+Sum squared residual:     160.836  Log likelihood        :    -95.6007
+Sigma-square        :     3.65537  Akaike info criterion :     197.201
+S.E. of regression  :      1.9119  Schwarz criterion     :     202.752
+Sigma-square ML     :     3.42205
+S.E of regression ML:     1.84988
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT       28.9654        1.99536        14.5164     0.00000
+rate of..ures 2015       8.10961        2.15313        3.76643     0.00049
+rate of..ures 2015      -9.36083         1.5092       -6.20253     0.00000
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   28.901487
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2            26.8471          0.00000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test     2             1.7607          0.41465
+Koenker-Bassett test   2             0.6792          0.71204
+SPECIFICATION ROBUST TEST
+TEST                  DF           VALUE             PROB
+White                  5             2.5259          0.77259
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE   
+FOR WEIGHT MATRIX : SRA_DB_JPN_knn7
+   (row-standardized weights)
+TEST                          MI/DF        VALUE          PROB
+Moran's I (error)             0.1146        2.3196        0.02037
+Lagrange Multiplier (lag)       1           2.9272        0.08710
+Robust LM (lag)                 1           0.8153        0.36656
+Lagrange Multiplier (error)     1           2.3453        0.12566
+Robust LM (error)               1           0.2334        0.62899
+Lagrange Multiplier (SARMA)     2           3.1606        0.20591
+============================== END OF REPORT ================================
+
+
+
